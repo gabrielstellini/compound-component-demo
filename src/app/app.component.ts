@@ -5,6 +5,8 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
-  title = 'compound-components';
+export class AppComponent  {
+  onToggle(on) {
+    console.log('toggle', on);
+  }
 }
