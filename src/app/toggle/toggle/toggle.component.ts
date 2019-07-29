@@ -13,7 +13,7 @@ export class ToggleComponent {
   @Input() on: boolean;
   @Output() toggled: EventEmitter<boolean> = new EventEmitter();
 
-  @ContentChild(TemplateRef, /* TODO: add static flag */ {read: false, static: false})
+  @ContentChild(TemplateRef, {read: false, static: false})
   @Input() layoutTemplate: TemplateRef<any>;
 
   toggle = () => {
