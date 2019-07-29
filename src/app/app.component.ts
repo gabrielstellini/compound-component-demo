@@ -5,6 +5,5 @@ import { Component, ViewChild, AfterViewInit } from '@angular/core';
   templateUrl: './app.component.html',
 })
 export class AppComponent {
-  public on = true;
 }
 

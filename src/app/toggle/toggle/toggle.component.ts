@@ -1,4 +1,4 @@
-import { Component, Input, Output, EventEmitter, TemplateRef, ContentChild,ViewChild } from '@angular/core';
+import { Component, Input, Output, EventEmitter, TemplateRef, ContentChild } from '@angular/core';
 import { TogglerDirective} from './toggler.directive';
 
 @Component({
