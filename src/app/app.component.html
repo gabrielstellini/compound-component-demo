@@ -4,8 +4,6 @@
       {{on ? 'on' : 'off'}}
     </button>
     <hr>
-    <button [toggler]="{ ariaChecked: false }" [on]="on" [role]="'switch'" [attr.aria-pressed]="on" (click)="fns.toggle()">
-      <switch toggler [on]="on" (toggle)="fns.toggle()"></switch>
-    </button>
+      <switch toggler [on]="on" [attr.aria-pressed]="on" (click)="fns.toggle()"></switch>
   </ng-template>
 </toggle>
