@@ -1,12 +1,10 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild, AfterViewInit } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
+  selector: 'my-app',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
 })
-export class AppComponent  {
-  onToggle(on) {
-    console.log('toggle', on);
-  }
+export class AppComponent {
+  public on = true;
 }
+

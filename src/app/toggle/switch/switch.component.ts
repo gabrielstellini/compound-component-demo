@@ -1,7 +1,7 @@
 import { Component, Input } from '@angular/core';
 
 @Component({
-  selector: 'app-switch',
+  selector: 'switch',
   templateUrl: './switch.component.html',
 })
 export class SwitchComponent  {
